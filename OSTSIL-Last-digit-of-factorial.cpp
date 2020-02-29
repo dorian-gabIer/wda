@@ -18,9 +18,9 @@ int main()
         ostatnia = ostatnia/10;
       }
       ostatnia %= 10000;
-      }
-ostatnia %= 10;
-cout << ostatnia << "\n";
-ostatnia = 1;
-}
+    }
+    ostatnia %= 10;
+    cout << ostatnia << "\n";
+    ostatnia = 1;
+  }
 }
