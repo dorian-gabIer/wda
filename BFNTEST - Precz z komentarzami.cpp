@@ -35,10 +35,6 @@ int main()
             {
                 cout << symbol;
                 if ((symbol == '\n' && temp != '\\') || (symbol == '"' && temp != '\\') || (symbol == '"' && temp == '\\' && temp2 == '\\'))
-                // zamiana symbol na temp - zalicza 3, nie zalicza 10 i 11;
-                // moze spacje po symbolu ucieczki?
-                // zrobic flage escape ktora sie wylacza po dowolnej literce
-                // po escape.
                     cString = false;
             }
             else
