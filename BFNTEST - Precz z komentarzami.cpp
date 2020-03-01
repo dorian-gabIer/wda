@@ -1,14 +1,11 @@
 #include <iostream>
-
 using namespace std;
-
 int main()
 {
     char symbol, temp, temp2;
     bool lineComment = false;
     bool blockComment = false;
     bool cString = false;
-    
     while (cin.get(symbol))
     {
         if (lineComment)
@@ -81,6 +78,5 @@ int main()
         temp2 = temp;
         temp = symbol;
     }
-    
     return 0;
 }
